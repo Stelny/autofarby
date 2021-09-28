@@ -1,0 +1,233 @@
+.form .form-control {
+  margin-bottom: 2rem;
+}
+
+input:-internal-autofill-selected {
+  background-color: #fff !important;
+  background-image: none !important;
+  color: black !important;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  min-height: 4.7rem;
+  padding: 0.85rem 2rem;
+  border: 1px solid #eee;
+  font-size: 1.4rem;
+  font-family: Poppins, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #999;
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  outline: 0;
+}
+.form-control::placeholder {
+  color: inherit;
+  font-family: inherit;
+}
+.form-control::-webkit-input-placeholder {
+  color: inherit;
+}
+.form-control::-moz-placeholder {
+  color: inherit;
+}
+.form-control.form-solid {
+  background-color: #fff;
+  border: 0;
+  color: #8d8d8d;
+}
+.form-control.form-control-md {
+  font-size: 1.3rem;
+  min-height: 4.4rem;
+}
+.form-control.form-control-sm {
+  font-size: 1.2rem;
+  min-height: 4rem;
+}
+
+.input-wrapper input {
+  flex: 1;
+  min-width: 40px;
+  font-size: 1.4rem;
+  font-family: Poppins, sans-serif;
+  border-width: 1px 0 1px 1px;
+}
+
+.input-wrapper-inline {
+  display: flex;
+  position: relative;
+  max-width: 67.5rem;
+  width: 100%;
+}
+.input-wrapper-inline .btn {
+  line-height: 1;
+}
+
+.input-wrapper-rounded .form-control {
+  border-radius: 0.4rem;
+}
+
+.input-wrapper-round .form-control {
+  position: relative;
+  border-radius: 3rem;
+}
+.input-wrapper-round .btn {
+  border-radius: 3rem;
+  line-height: 1;
+}
+.input-wrapper-round .form-control {
+  border-radius: 3rem 0 0 3rem;
+}
+.input-wrapper-round .btn {
+  border-radius: 0 3rem 3rem 0;
+}
+
+.input-group {
+  display: inline-flex;
+  height: 4.4rem;
+  position: relative;
+  width: 100%;
+}
+.input-group .form-control {
+  flex: 1;
+  font-size: 1.3rem;
+  padding: 0 1.4rem 0 1.8rem;
+  height: inherit;
+  min-height: auto;
+  max-width: 100%;
+  -webkit-appearance: textfield;
+  border: solid #ccc;
+  border-width: 1px;
+  color: #666;
+}
+.input-group .form-control:hover::-webkit-outer-spin-button, .input-group .form-control:hover::-webkit-inner-spin-button, .input-group .form-control:focus::-webkit-outer-spin-button, .input-group .form-control:focus::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.input-group button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1.5rem;
+  padding: 0;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  background-color: #eee;
+  color: #666;
+  font-size: 1.4rem;
+  border: none;
+}
+.input-group button + button {
+  margin-right: 3.3rem;
+}
+.input-group button:hover {
+  cursor: pointer;
+}
+
+.custom-radio {
+  position: relative;
+}
+.custom-radio .custom-control-input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.custom-radio .custom-control-label {
+  padding-left: 3rem;
+}
+.custom-radio .custom-control-label::after {
+  content: "";
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 1px solid;
+  border-radius: 2px;
+  color: #999;
+  font-family: "Font Awesome 5 Free";
+  font-size: 1rem;
+  font-weight: 900;
+  width: 1.8rem;
+  height: 1.8rem;
+  cursor: pointer;
+  transition: color 0.3s, background-color 0.3s, content 0.3s, border 0.3s;
+}
+.custom-radio .custom-control-label.round::after {
+  border-radius: 50%;
+}
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+  content: "";
+  background-color: #336699;
+  color: #fff;
+  border: 2px solid #336699;
+  padding-left: 2px;
+}
+.custom-radio .custom-control-input:checked ~ .custom-control-label.color-dark::after {
+  background-color: #333;
+  border-color: #333;
+}
+
+.custom-checkbox {
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+  width: 1.8rem;
+  height: 1.8rem;
+  cursor: pointer;
+}
+.custom-checkbox + label {
+  display: inline-block;
+  position: relative;
+  padding-left: 2.5rem;
+  cursor: pointer;
+}
+.custom-checkbox + label::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 18px;
+  height: 18px;
+  line-height: 15px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+@media (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .custom-checkbox + label::before {
+    line-height: 14px;
+  }
+}
+.custom-checkbox:checked + label::before, .custom-checkbox.checked + label::before {
+  content: "";
+  border-color: #222;
+  background: #222;
+  color: #fff;
+  font-size: 9px;
+  font-weight: 600;
+  font-family: "Font Awesome 5 Free";
+  text-align: center;
+}
+
+.btn-absolute input.form-control {
+  width: 100%;
+  padding-left: 2rem;
+  color: #999;
+  font-size: 1.4rem;
+}
+.btn-absolute .btn {
+  position: absolute;
+  width: auto;
+  height: 100%;
+  min-width: 4.4rem;
+  right: 0;
+  font-size: 1.3rem;
+}
+.btn-absolute .btn:hover {
+  color: #336699;
+}

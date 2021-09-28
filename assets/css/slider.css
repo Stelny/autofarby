@@ -1,0 +1,62 @@
+#slider {
+  margin-bottom: 100px;
+}
+#slider .slider-item{
+  height: 600px;
+  position: relative;
+}
+#slider .slider-item .container{
+  position: absolute;
+  left:0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#slider .slider-item .container .slider-item-title{
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 84px;
+  margin-bottom: 12px;
+}
+#slider .slider-item .container .slider-item-text{
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+#slider .slider-item .container .btn{
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: transparent;
+}
+#slider .slider-item .container .btn:hover{
+  color: #000000;
+  border-color: #ffffff;
+  background-color: #ffffff;
+}
+#slider .owl-dots{
+  position: absolute;
+  bottom: 100px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  display: flex;
+  width: 1440px;
+  justify-content: flex-end;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+  width: 14px;
+  height: 14px;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 14px;
+  height: 14px;
+  border: .1rem solid #ffffff;
+}
+.owl-theme .owl-dots .owl-dot:hover span {
+  border-color: #ffffff;
+  background: #ffffff;
+}

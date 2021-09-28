@@ -1,0 +1,81 @@
+.form-wrapper {
+  box-shadow: 0px 0px 25px #00000033;
+}
+.form-wrapper h1{
+  position: relative;
+  border-bottom: 3px solid #EF1016;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.form-wrapper h1:before{
+  position: relative;
+}
+.login-form-wrapper{
+  padding-top: 70px;
+}
+.login-form-wrapper label{
+  font-size: 14px;
+  line-height: 20px;
+  color: #181818;
+  /*margin-bottom: 8px;*/
+}
+.login-form-wrapper .form-control{
+  height: 50px;
+  margin-top: 8px;
+}
+.login-form-wrapper .form-group {
+  margin-bottom: 16px;
+}
+.login-form-wrapper .remember-form-wrapper {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.registration-page .login-form-wrapper .remember-form-wrapper a{
+  color: #05AEFB;
+  text-decoration: underline;
+}
+.forgetpass-page .login-form-wrapper{
+  padding: 170px 0;
+}
+.forgetpass-page .login-form-wrapper .login_container{
+  margin-bottom: 0;
+}
+.login-form-wrapper .login_container {
+  margin-bottom: 30px;
+}
+.login-form-wrapper .login_container .login_btn {
+  width: 100%;
+}
+.forgetpass-page .login-form-wrapper .login_container .login_btn {
+  background-color: #EF1016;
+  color: #ffffff;
+}
+.login-form-wrapper .forget-pass {
+  text-align: center;
+  margin-bottom: 12px;
+}
+.login-form-wrapper .forget-pass a {
+  color: #05AEFB;
+  font-size: 14px;
+  line-height: 16px;
+}
+.login-form-wrapper .want-registration {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.login-form-wrapper .want-registration a {
+  color: #05AEFB;
+  font-size: 14px;
+  line-height: 16px;
+}
+.login-image-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+.login-image-wrapper img {
+  height: 100%;
+  object-fit: cover;
+}
+label .red-star {
+  color: #CA2751;
+}

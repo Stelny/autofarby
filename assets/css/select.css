@@ -1,0 +1,55 @@
+.select-box,
+.select-menu {
+  position: relative;
+}
+.select-box select,
+.select-menu select {
+  position: relative;
+  max-width: 160px;
+  min-height: auto;
+  width: 100%;
+  height: 100%;
+  padding-left: 9px;
+  padding-right: 27px;
+  border: 1px solid #e3e3e3;
+  color: inherit;
+  background-color: transparent;
+  font-size: 1.2rem;
+  font-family: inherit;
+  letter-spacing: inherit;
+  z-index: 1;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+.select-box select:focus,
+.select-menu select:focus {
+  outline: none;
+}
+/*.select-box::before,*/
+/*.select-menu::before {*/
+/*  content: "";*/
+/*  font-family: "Wolmart";*/
+/*  font-size: 9px;*/
+/*  font-weight: 600;*/
+/*  line-height: 1;*/
+/*  position: absolute;*/
+/*  right: 2rem;*/
+/*  top: 50%;*/
+/*  transform: translateY(-50%);*/
+/*}*/
+
+.select-box option {
+  font-size: 1.2rem;
+}
+
+@media (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  select::-ms-expand {
+    display: none;
+  }
+
+  select:focus::-ms-value {
+    background: transparent;
+    color: currentColor;
+  }
+}

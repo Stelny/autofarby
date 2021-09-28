@@ -1,0 +1,314 @@
+.account-page .page-content {
+  padding: 0px;
+}
+.account-page .page-content .color-red{
+  color: #EF1016;
+}
+.account-page .page-content .account-content {
+  overflow: auto;
+  padding: 70px 0 130px;
+}
+.account-page .page-content .container .account-sidebar {
+  width: 350px;
+  float: left;
+  box-shadow: 0px 0px 25px #00000033;
+  margin-right: 65px;
+}
+.account-page .page-content .container .account-sidebar .filter-sidebar h2{
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 70px;
+  background-color: #EF1016;
+  padding: 0 15px;
+  margin-bottom: 0px;
+}
+.account-page .page-content .container .account-sidebar .filter-sidebar h2 img{
+  margin-right: 10px;
+}
+
+.account-page .page-content .container .account-sidebar .filters-sidebar {
+  padding: 30px;
+}
+.account-page .page-content .container .account-sidebar .filters-sidebar .widget-title{
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 15px;
+  color: #333333;
+}
+.account-page .page-content .container .account-sidebar .filters-sidebar .widget-body {
+  margin-bottom: 0px;
+}
+.account-page .page-content .container .account-sidebar .filters-sidebar .widget-body li {
+  padding-left: 20px;
+  /*margin: 5px 0;*/
+  padding: 15px 0;
+}
+.account-page .page-content .container .account-sidebar .filters-sidebar .widget-body li:not(:last-child) {
+  border-bottom: 1px solid rgba(51, 51, 51, 0.3);
+}
+.account-page .page-content .container .account-sidebar .filters-sidebar .widget-body li a{
+  color: rgba(51, 51, 51, 0.7);
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 16px;
+}
+.hover-show {
+  display: none;
+}
+.account-page .page-content .container .account-sidebar .filters-sidebar .widget-body li a:hover {
+  color: #EF1016;
+}
+.account-page .page-content .container .account-sidebar .filters-sidebar .widget-body li a:hover .hover-hide{
+  display: none;
+}
+.account-page .page-content .container .account-sidebar .filters-sidebar .widget-body li a:hover .hover-show{
+  display: inline-block;
+}
+.account-page .page-content .container .account-sidebar .filters-sidebar .widget-body li.active a {
+  color: #EF1016;
+}
+.account-page .page-content .container .account-sidebar .filters-sidebar .widget-body li.active a .hover-hide{
+  display: none;
+}
+.account-page .page-content .container .account-sidebar .filters-sidebar .widget-body li.active a .hover-show{
+  display: inline-block;
+}
+.account-page .page-content .container .account-sidebar .filters-sidebar .widget-body li img{
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+.account-page .page-content .container .account-sidebar .filters-sidebar .widget-body.widget-brand li img{
+  width: 60px;
+  height: 60px;
+  margin-right: 25px;
+}
+.account-page .page-content .container .account-sidebar .filters-sidebar .widget .btn-filter-pagination{
+  display: block;
+  line-height: 48px;
+  font-size: 14px;
+  padding: 0;
+}
+
+
+.account-page .page-content .container .account-content-products {
+  width: calc(100% - 415px);
+  float: left;
+}
+.account-page .page-content .container .account-content-products .toolbox{
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 50px;
+}
+.account-page .page-content .container .account-content-products .toolbox h1 {
+  margin-bottom: 0;
+}
+.toolbox-sort{
+  display: flex;
+}
+.toolbox-sort label{
+  font-weight: bold;
+  color: #96989C;
+}
+.toolbox-sort select{
+  font-weight: bold;
+  color: #333333;
+  border: unset;
+  background: unset;
+}
+
+.account-page .page-content .products-view-wrapper {
+  box-shadow: 0px 0px 25px #00000033;
+}
+.account-page .page-content .products-view-wrapper .stars{
+  margin: 12px 0;
+}
+.account-page .page-content .products-view-wrapper h2{
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+.account-page .page-content .products-view-wrapper .products-view-info {
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.account-page .page-content .products-view-wrapper .products-view-info .product-view-image{
+  position: relative;
+}
+.account-page .page-content .products-view-wrapper .products-view-info .product-view-image:before{
+  position: absolute;
+  content: "ZĽAVA";
+  top: 6px;
+  left: 6px;
+  color: #ffffff;
+  background-color: #EF1016;
+  font-size: 12px;
+  padding: 0 12px;
+}
+.account-page .page-content .products-view-wrapper .products-view-info .product-view-image:after{
+  position: absolute;
+  content: "NOVINKA";
+  top: 31px;
+  left: 6px;
+  color: #ffffff;
+  background-color: #EF1016;
+  font-size: 12px;
+  padding: 0 12px;
+}
+.account-page .page-content .products-view-wrapper .products-view-info .sklad {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  color: #02B91B;
+}
+.account-page .page-content .products-view-wrapper .products-view-info .price-wrapper .new-price {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #EF1016;
+}
+.account-page .page-content .products-view-wrapper .products-view-info .price-wrapper .old-price {
+  font-size: 12px;
+  line-height: 24px;
+  text-decoration: line-through;
+  color: #333333;
+}
+.account-page .page-content .products-view-wrapper .products-view-info .btn-product {
+  font-size: 11px;
+  line-height: 38px;
+  display: block;
+  padding: 0;
+}
+.account-page .page-content .products-view-wrapper .products-view-info .btn-wrapper:first-child {
+  padding-right: 7.5px;
+}
+.account-page .page-content .products-view-wrapper .products-view-info .btn-wrapper:last-child {
+  padding-left: 7.5px;
+}
+
+
+
+.account-page .page-content .blog-view-pagination-wrapper {
+  display: flex;
+}
+.account-page .page-content .blog-view-pagination-wrapper .blog-view-pagination-items {
+  margin-left: auto;
+}
+.account-page .page-content .blog-view-pagination-wrapper .blog-view-pagination-link .btn{
+  font-size: 12px;
+  padding: 0 32px;
+  line-height: 38px;
+}
+.account-page .page-content .blog-view-pagination-wrapper .blog-view-pagination-items .pagination {
+  display: flex;
+  list-style: none;
+}
+.account-page .page-content .blog-view-pagination-wrapper .blog-view-pagination-items .pagination .btn{
+  display:block;
+  padding: 0;
+  width: 40px;
+  line-height: 38px;
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+.account-page .shop-table {
+  border-spacing: 15px;
+}
+.account-page .shop-table tr:first-child{
+  margin-bottom: 15px;
+}
+.account-page .shop-table tr th{
+  color: #181818;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: inherit;
+  text-align: left;
+  padding-left: 35px;
+  padding-bottom: 15px;
+}
+.account-page .shop-table .shop-table-item{
+  border: 1px solid #3333334D;
+}
+.account-page .shop-table .shop-table-item .btn{
+  color: #05AEFB;
+  text-decoration: underline;
+  text-transform: inherit;
+  border: unset;
+}
+.account-page .shop-table .shop-table-item .btn:hover, .account-page .shop-table .shop-table-item .btn:focus, .account-page .shop-table .shop-table-item .btn:active,.account-page .shop-table .shop-table-item .btn:visited{
+  background: unset;
+}
+.account-page .shop-table .shop-table-item td{
+  padding: 35px;
+}
+.order-status p{
+  width: 120px;
+  line-height: 40px;
+  text-align: center;
+  margin: 0;
+  color: #ffffff;
+  font-size: 14px;
+}
+.order-status.sold p{
+  background-color: #02B91B;
+}
+.order-status.unsold p{
+  background-color: #EF1016;
+}
+
+.account-user-info {
+  display: flex;
+  padding: 20px;
+  border: 1px solid rgba(51, 51, 51, 0.3);
+  align-items: center;
+  margin-bottom: 50px;
+}
+.account-user-info h2 {
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: 0;
+}
+.account-user-info p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+.account-user-info-image {
+  margin-right: 50px;
+}
+.account-user-info-image img {
+  width: 120px;
+}
+.account-user-info-link {
+  margin-left: auto;
+}
+.account-details-form h2 {
+  font-size: 24px;
+}
+.account-details-form label {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  display: inline-block;
+  color: #181818;
+}
+.select-date .select-day {
+  width: 100px;
+  border-right: unset;
+  float: left;
+}
+.select-date .select-month {
+  width: calc(100% - 200px);
+  border-right: unset;
+  float: left;
+}
+.select-date .select-year {
+  width: 100px;
+  float: left;
+}
+@media (min-width: 768px){
+  .offset-md-6 {
+    margin-right: 50%;
+  }
+}

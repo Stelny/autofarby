@@ -1,0 +1,123 @@
+.page-content {
+  padding: 80px 0;
+}
+.py-150 {
+  padding: 150px 0;
+}
+.text-page .page-content h1 {
+  font-size: 60px;
+  line-height: 84px;
+  color: #2D3239;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.text-page .page-content h2 {
+  font-size: 36px;
+  line-height: 51px;
+  color: #2D3239;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.text-page .page-content h3 {
+  font-size: 24px;
+  line-height: 33px;
+  color: #2D3239;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.text-page .page-content h4 {
+  font-size: 18px;
+  line-height: 25px;
+  color: #2D3239;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.text-page .page-content p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 50px;
+}
+.text-page .page-content ul.red-bull {
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 25px;
+  list-style: none;
+}
+.text-page .page-content ul.red-bull li{
+  margin-bottom: 25px;
+  position: relative;
+}
+.text-page .page-content ul.red-bull li:last-child{
+  margin-bottom: 50px;
+}
+.text-page .page-content ul.red-bull li:before{
+  content: "\2022";
+  color: #EF1016;
+  font-size: 25px;
+  line-height: 0px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  margin-left: -24px;
+}
+.text-page .page-content p a {
+  color: #EF1016;
+  text-decoration: underline;
+}
+.page-content h1 {
+  letter-spacing: 0.36px;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 50px;
+}
+.page-content h1 .color-red {
+  color: #EF1016;
+}
+.page-content .warning-page-image {
+  margin-bottom: 50px;
+}
+.page-content.py-150 .warning-page-image {
+  margin-bottom: 0px;
+}
+.page-content .warning-page-text {
+  font-size: 24px;
+  line-height: 36px;
+  color: #181818;
+  letter-spacing: 0.24px;
+  margin-bottom: 30px;
+}
+.page-content.py-150 .warning-page-text {
+  margin-bottom: 50px;
+}
+.page-content .warning-page-text a{
+  color: #181818;
+}
+.page-content .warning-page-link {
+  font-size: 16px;
+  line-height: 24px;
+  color: #EF1016;
+  text-transform: uppercase;
+  border-color: #EF1016;
+  padding: 14px 72px;
+}
+.warning-page-link:hover, .warning-page-link:active, .warning-page-link:focus {
+  color: #ffffff;
+  background-color: #EF1016;
+}
+.page-404 h1{
+  font-size: 63px;
+  line-height: 80px;
+}
+.page-404 h1 span{
+  font-size: 100px;
+  line-height: 100px;
+}

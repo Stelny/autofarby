@@ -1,0 +1,211 @@
+/* 8. footer */
+/*-------------------------------------
+    Footer
+        - Footer top
+        - Footer middle
+        - Footer bottom
+        - Copyright
+        - Widget newsletter
+        - Sticky Footer
+--------------------------------------*/
+.footer {
+  font-family: Poppins, sans-serif;
+  font-size: 1.3rem;
+  background: #f8f8f8;
+}
+.footer a {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 16px;
+}
+.footer a:hover, .footer a:active, .footer a.active {
+  color: #EF1016;
+}
+.footer.footer-dark a:hover, .footer.footer-dark a:active, .footer.footer-dark a.active {
+  color: #fff;
+}
+.footer p {
+  font-size: inherit;
+}
+.footer .category-name {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #666;
+  line-height: 1;
+  letter-spacing: 0;
+  padding-right: 2rem;
+  margin-bottom: 1rem;
+  flex-shrink: 0;
+}
+.footer .category-box {
+  flex-wrap: wrap;
+  display: inline-flex;
+  align-items: center;
+}
+.footer .category-box:not(:last-child) {
+  margin-bottom: 1.4rem;
+}
+.footer .category-box a {
+  font-weight: normal;
+  font-size: 1.3rem;
+  letter-spacing: 0;
+  color: #666;
+  line-height: 1;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.footer .category-box a:hover, .footer .category-box a:active, .footer .category-box a:focus {
+  color: #336699;
+}
+.footer .category-box a:last-child::before {
+  width: 100%;
+}
+.footer .category-box a::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 14px;
+  border-left: 1px solid #ccc;
+  margin: 0px 0.9rem 0 1rem;
+  vertical-align: bottom;
+}
+.footer .category-box a:last-child::after {
+  content: none;
+}
+.footer .social-icons-colored .social-icon {
+  color: #fff;
+}
+
+.logo-footer, .logo-footer img {
+  display: block;
+}
+
+.footer-newsletter {
+  background-image: url(../images/banner/banner.jpg);
+  height: 150px;
+  padding: 2.8rem 0;
+}
+.footer-newsletter .icon-box-side {
+  justify-content: left;
+  display: flex;
+  align-items: center;
+}
+.footer-newsletter .icon-box-icon {
+  margin-right: 30px;
+}
+.footer-newsletter .icon-box-content p {
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 0;
+}
+.footer-newsletter .btn {
+  padding: 0.93em 1.85em;
+  margin-bottom: 0;
+  background: transparent;
+  border: 1px solid #FFFFFF;
+  font-size: 14px;
+}
+
+.footer-newsletter .btn:hover {
+  background: #ffffff;
+  color: #333333;
+}
+
+.footer-top {
+  background-color: #333333;
+  padding: 97px 0 50px;
+}
+.footer-top .widget {
+  margin-bottom: 4rem;
+}
+.footer-top .widget-contacts li {
+  justify-content: left;
+  display: flex;
+}
+.footer-top .widget-contacts li img{
+  margin: 0 10px 0 0;
+}
+.footer-top .widget-contacts li h3{
+  font-size: 14px;
+  line-height: 18px;
+  font-weigth: bold;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0;
+}
+.footer-top .widget-contacts li p{
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0;
+}
+.footer-top .widget-title {
+  margin-bottom: 2rem;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: relative;
+}
+.footer-top .widget-title:before {
+  position: absolute;
+  content: "";
+  background-image: url(../images/icons/footer_headline.svg);
+  top: 100%;
+  left: 0;
+  width: 74px;
+  height: 5px;
+  background-size: contain;
+ }
+
+.footer-top .widget-body {
+  padding: 0;
+  color: #666;
+}
+.footer-top .widget-body .chevron-footer {
+  width: 7px;
+  height: 7px;
+  margin-right: 5px;
+}
+.footer-top .widget-body li {
+  padding-left: 20px;
+  margin: 5px 0;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.footer-bottom {
+  padding: 1rem 0;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: #1D1D1D;
+}
+.footer-bottom,
+.footer-bottom .container,
+.footer-bottom .container-fluid {
+  display: flex;
+  align-items: center;
+}
+.footer-bottom .footer-left,
+.footer-bottom .footer-right {
+  display: flex;
+  align-items: center;
+}
+.footer-bottom .footer-right {
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.footer .widget-about .widget-about-desc {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer .copyright {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  text-align: center;
+}
